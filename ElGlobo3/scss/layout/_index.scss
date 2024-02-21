@@ -1,0 +1,44 @@
+.hero img {
+    height: 50%;
+    width: 100vw;
+    display: flex;
+
+}
+
+.container,
+.row {
+background-color: $mainColor;
+color: white;
+}
+
+
+h2 {
+    background-color: $mainColor;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2px;
+    padding: 8px;
+}
+
+
+.about p {
+    background-color: rgb(241, 225, 197);
+    color: $mainColor;
+    text-align: center;
+    margin: 3px;
+    padding: 10px;
+}
+
+
+.carousel-inner,
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+
+}

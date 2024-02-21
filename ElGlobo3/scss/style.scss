@@ -1,0 +1,25 @@
+//base
+@import 'base/vars';
+@import 'base/reset';
+@import 'base/utils';
+
+//components
+@import 'components/navbar';
+@import 'components/footer';
+
+//layout
+@import 'layout/index';
+@import 'layout/desayunos';
+@import 'layout/panaderia';
+@import 'layout/bebidas';
+@import 'layout/contacto';
+@import 'layout/mediaqueries'
+
+
+@media (max-width:480px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

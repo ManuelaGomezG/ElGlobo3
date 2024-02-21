@@ -1,0 +1,26 @@
+.card {
+    background-color: rgb(248, 237, 222);
+    text-align: center;
+    display: flex;
+    border-radius: 0;
+    padding: 10px;
+    max-height: 500px;
+    max-width: 420px;
+    justify-content: center;
+}
+
+.card .bg-danger-subtle {
+    object-fit: cover;
+}
+
+
+.form {
+    background-color: blanchedalmond;
+}
+
+.iframe {
+    min-width: 310px;
+    max-width: 500px;
+    min-height: 310px;
+    max-width: 500px;
+}

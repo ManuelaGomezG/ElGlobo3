@@ -1,0 +1,29 @@
+.nav {
+    background-color: $mainColor;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-item {
+    color: white;
+}
+
+.btn-primary {
+    background-color: $mainColor;
+    border-radius: 0;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.bg-icecream {
+    background-color: $mainColor;
+    color: white;
+}
+
+.btn-primary:hover {
+    border: 2px solid $mainColor;
+    color: $mainColor;
+    background: transparent;
+}
